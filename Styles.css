@@ -1,0 +1,61 @@
+body{
+    height: 700px;
+    background: -moz-linear-gradient(90deg, rgba(99,99,99,0.95) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(99,99,99,0.95))); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, rgba(99,99,99,0.95) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, rgba(99,99,99,0.95) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, rgba(99,99,99,0.95) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background: linear-gradient(0deg, rgba(99,99,99,0.95) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#636363',GradientType=0 ); /* ie6-9 */
+}
+
+label{
+    color: slategrey;
+    font-family: monospace;
+}
+
+
+.middle-md{
+    margin-left: 16%;
+    padding: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: white;
+    height: 82.5%;
+    width: 68%;
+}
+.middle-lg{
+    margin-left: 10%;
+    padding: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: white;
+    height: 82.5%;
+    width: 80%;
+}
+
+.ICON-md{
+    margin-left: 16%;
+    margin-top: 10px;
+}
+.ICON-lg{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 4px 4px 0 0 rgba(0,0,0,1);
+}
